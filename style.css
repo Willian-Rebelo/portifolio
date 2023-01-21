@@ -14,14 +14,21 @@
 
 p{
     font-family: cursive;
+    font-size: 15px;
     text-align: center;
-    word-break:break-all;
+    width: 30vw;
+    border: solid 3px rgb(4, 0, 255);
+    border-radius: 40px;
+    border-bottom:  solid 2px rgba(21, 21, 22, 0);
+    border-top: solid 2px rgba(21, 21, 22, 0);
+    
 }
 
 .foto{
     width: 100px;
 }
 
-.logo{
-   width: 12px;
+.logos{
+   width: 200px;
+   height: 200px;
 }
