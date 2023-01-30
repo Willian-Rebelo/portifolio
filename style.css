@@ -4,7 +4,6 @@ body{
     background-image: url(./img/capa-web2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .conteudo{
@@ -12,9 +11,9 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: solid 3px #fff;
+    /* border: solid 3px #fff;
     border-radius: 35px;
-    background-color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.363); */
 }
 
 p{
