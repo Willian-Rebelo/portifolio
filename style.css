@@ -1,44 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    background-image: url(./img/capa-web.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-sizing: border-box;
+
+    /* background-image: url(./img/capa-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
 }   
 
-.conteudo{
+.card-content{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-   
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
 }
-
-p{
-    font-family: cursive;
-    font-size: 15px;
-    text-align: center;
-    width: 30vw;
-    color: #fff;
-}
-
-.foto{
-    width: 100px;
-}
-
-.logos{
-   width: 30vw;
-   
-}
-
-h1{
-    
-    color: white;
-}
+/* Começo do popup*/
 button{
-    margin: 20px;
+    margin: 35px;
     margin-top: 200px;
     display: block;
     background-color: aqua;
@@ -48,8 +30,9 @@ button{
     border-radius: 20px;
 }
 
-.popup-background{
-    background-color: rgba(0, 0, 0, .5);
+.card-background{
+    display: none;
+    background-color: rgba(0, 0, 0, .6);
     position: fixed;
     top: 0;
     left: 0;
@@ -57,19 +40,44 @@ button{
     height: 100%;
 }
 
-.popup{
-    text-align: center;
-    width: 100%;
-    max-width: 300px;
+.card{
+    width: 50vw;
+    /* max-width: 400px; */
     margin: 10% auto;
     padding:  20px;
-    background-color: #fff;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    border-radius: 20px;
     position: relative;
 }
 
-.popup-close{
+ .photo{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+p{
+    text-align: justify;
+    padding: 30px;
+}
+
+.title{
+    display: inline-block;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.card-close{
     position: absolute;
     top: 5px;
     right: 10px;
     cursor: pointer;
 }
+
