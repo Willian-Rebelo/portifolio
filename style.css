@@ -4,19 +4,20 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /* background-image: url(./img/capa-web.jpg);
+    flex-wrap: wrap;
+    background-image: url(./img/capa-web.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     
 }   
-
 .card-content{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    
 }
 /* Começo do popup*/
 button{
@@ -28,6 +29,7 @@ button{
     cursor: pointer;
     padding: 10px 10px;
     border-radius: 20px;
+    
 }
 
 .card-background{
@@ -41,31 +43,36 @@ button{
 }
 
 .card{
-    width: 50vw;
-    /* max-width: 400px; */
+    max-width: 700px;
     margin: 10% auto;
     padding:  20px;
     background-color: rgb(255, 251, 251);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    box-shadow: 10px 10px 10px rgba(255, 253, 253, 0.389);
     border-radius: 20px;
     position: relative;
 }
 
  .photo{
     width: 150px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    
 } 
 
 p{
     text-align: justify;
-    padding: 30px;
+    margin-top: -5px;
+    cursor: no-drop;
+    padding: 10px;
+
 }
 
+.linux{
+    width: 60px;
+    height: 55px;
+}
 .title{
-    display: inline-block;
+    display: flex;
     align-items: center;
+    
 }
 .text{
     display: flex;
@@ -73,6 +80,14 @@ p{
     flex-direction: column;
     align-items: center;
 }
+
+/* .div{
+    background-color: rgb(0, 0, 0);
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 3px 2px 3px red;
+} */
     
 .card-close{
     position: absolute;
