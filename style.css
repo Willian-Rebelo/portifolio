@@ -5,9 +5,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     flex-wrap: wrap;
-    background-image: url(./img/capa-web.jpg);
+    /* background-image: url(./img/capa-web.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }   
 
 /* Começo do popup*/
