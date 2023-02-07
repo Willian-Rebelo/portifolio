@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@600&family=Work+Sans:ital@1&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     flex-wrap: wrap;
+    overflow-y: hidden;
 }
 
 body{
@@ -19,8 +21,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    gap: 15px;
-    padding: 10vw;
+    gap: 20px;
+    padding: 5vw;
     margin-right: 30vw;
 }
 
@@ -31,9 +33,21 @@ body{
     align-items: center;
 }
 
-p, hr, h1{
+p, hr{
     text-align: center;
     font-size: 20px;
-    width: 50vw;
+    width: 40vw;
     color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1{
+    font-size: 50px;
+    color:#fff;
+    font-family: 'Ruda', sans-serif;
+    font-family: 'Work Sans', sans-serif;   
+}
+
+.icons{
+  
 }
